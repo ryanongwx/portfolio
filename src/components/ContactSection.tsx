@@ -2,10 +2,10 @@ import { motion } from "framer-motion";
 import { Github, Linkedin, Mail, Twitter } from "lucide-react";
 
 const socials = [
-  { icon: Github, label: "GitHub", href: "#" },
-  { icon: Twitter, label: "Twitter", href: "#" },
-  { icon: Linkedin, label: "LinkedIn", href: "#" },
-  { icon: Mail, label: "Email", href: "mailto:your@email.com" },
+  { icon: Github, label: "GitHub", href: "https://github.com/ryanongwx" },
+  { icon: Twitter, label: "X / Twitter", href: "https://x.com/xxbozohead1" },
+  { icon: Linkedin, label: "LinkedIn", href: "https://www.linkedin.com/in/ryan-ong-wei-xian-b17628211/" },
+  { icon: Mail, label: "Email", href: "mailto:ryanongwx@u.nus.edu" },
 ];
 
 const ContactSection = () => {
@@ -42,7 +42,7 @@ const ContactSection = () => {
           </div>
 
           <motion.a
-            href="mailto:your@email.com"
+            href="mailto:ryanongwx@u.nus.edu"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             className="inline-block px-10 py-3 bg-primary text-primary-foreground font-display text-sm tracking-wider uppercase rounded-sm
