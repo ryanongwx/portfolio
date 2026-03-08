@@ -93,12 +93,14 @@ const ProjectsSection = () => {
                   {project.title}
                 </h3>
                 <div className="flex gap-2 opacity-50 group-hover:opacity-100 transition-opacity">
-                  <a href={project.github} className="text-muted-foreground hover:text-primary transition-colors">
+                  <a href={project.github} target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
                     <Github size={18} />
                   </a>
-                  <a href={project.live} className="text-muted-foreground hover:text-primary transition-colors">
-                    <ExternalLink size={18} />
-                  </a>
+                  {project.live && (
+                    <a href={project.live} target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+                      <ExternalLink size={18} />
+                    </a>
+                  )}
                 </div>
               </div>
               
