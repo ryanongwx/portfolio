@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 const timeline = [
 { year: "2026", title: "Development Engineer", place: "Shanghai Westwell Technology Co., Ltd", desc: "Custom LLM Training" },
-{ year: "2026", title: "CS Degree", place: "National University of Singapore", desc: "Bachelor of Computing · Specialized in Computer Networks & AI" }];
+{ year: "2026", title: "Computer Science Degree", place: "National University of Singapore", desc: "Bachelor of Computing · Specialized in Computer Networks & AI" }];
 
 
 
