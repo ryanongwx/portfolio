@@ -42,7 +42,7 @@ const ContactSection = () => {
           </div>
 
           <motion.a
-            href="mailto:your@email.com"
+            href="mailto:ryanongwx@u.nus.edu"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             className="inline-block px-10 py-3 bg-primary text-primary-foreground font-display text-sm tracking-wider uppercase rounded-sm
