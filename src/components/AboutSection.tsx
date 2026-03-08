@@ -1,9 +1,9 @@
 import { motion } from "framer-motion";
 
 const timeline = [
-  { year: "2026", title: "Development Engineer", place: "Shanghai Westwell Technology Co., Ltd", desc: "Custom LLM Training" },
-  { year: "2026", title: "CS Degree", place: "National University of Singapore", desc: "Bachelor of Computing · Specialized in Computer Networks & AI" },
-];
+{ year: "2026", title: "Development Engineer", place: "Shanghai Westwell Technology Co., Ltd", desc: "Custom LLM Training" },
+{ year: "2026", title: "CS Degree", place: "National University of Singapore", desc: "Bachelor of Computing · Specialized in Computer Networks & AI" }];
+
 
 
 const AboutSection = () => {
@@ -60,7 +60,7 @@ const AboutSection = () => {
                   {item.title}
                 </h3>
                 <p className="text-muted-foreground text-sm">{item.place}</p>
-                <p className="text-muted-foreground/70 text-xs mt-1">{item.desc}</p>
+                
               </motion.div>
             )}
           </div>
