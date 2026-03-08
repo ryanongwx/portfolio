@@ -16,7 +16,7 @@ const projects = [
     tags: ["Next.js", "React", "Prisma", "NextAuth", "Vercel AI SDK", "Recharts", "Zustand", "Resend"],
     color: "secondary" as const,
     github: "https://github.com/ryanongwx/Flux",
-    live: "",
+    live: "https://flux-three-peach.vercel.app/",
   },
   {
     title: "Lia AI",
