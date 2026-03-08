@@ -30,6 +30,8 @@ const ContactSection = () => {
               <motion.a
                 key={s.label}
                 href={s.href}
+                target={s.href.startsWith("mailto:") ? undefined : "_blank"}
+                rel={s.href.startsWith("mailto:") ? undefined : "noopener noreferrer"}
                 whileHover={{ scale: 1.15, y: -2 }}
                 whileTap={{ scale: 0.95 }}
                 className="w-12 h-12 glass-card flex items-center justify-center text-muted-foreground 
