@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 
-const roles = ["AI Engineer", "Blockchain Developer", "Full-Stack Builder", "Web3 Architect"];
+const roles = ["AI Engineer", "Blockchain Developer", "Vibecoder", "Problem Solver", "Web3 Architect"];
 
 const HeroSection = () => {
   const [roleIndex, setRoleIndex] = useState(0);
