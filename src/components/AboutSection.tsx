@@ -28,9 +28,9 @@ const AboutSection = () => {
             viewport={{ once: true }}>
             
             <p className="text-muted-foreground leading-relaxed mb-4">
-              I'm a vibecoder at heart — I believe the best software emerges when you're 
-              in flow, driven by curiosity and the urge to solve real-world problems. 
-              I don't just write code, I craft solutions that matter.
+              I'm a vibecoder at heart! I believe the best software emerges when you're in flow, driven by curiosity and the urge to solve real-world problems. I don't just write code, I craft solutions that matter.
+            
+
             </p>
             <p className="text-muted-foreground leading-relaxed mb-4">
               From training neural networks to deploying smart contracts, I work across 
