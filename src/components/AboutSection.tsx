@@ -28,19 +28,19 @@ const AboutSection = () => {
             viewport={{ once: true }}
           >
             <p className="text-muted-foreground leading-relaxed mb-4">
-              I'm a developer passionate about pushing the boundaries of what's possible 
-              with AI and blockchain technology. I believe in building systems that are 
-              not just functional, but transformative.
+              I'm a vibecoder at heart — I believe the best software emerges when you're 
+              in flow, driven by curiosity and the urge to solve real-world problems. 
+              I don't just write code, I craft solutions that matter.
             </p>
             <p className="text-muted-foreground leading-relaxed mb-4">
               From training neural networks to deploying smart contracts, I work across 
-              the full stack of emerging tech. My focus is on creating tools that 
-              democratize access to complex technologies.
+              the full stack of emerging tech. My focus is on building tools that 
+              democratize access to complex technologies and make a tangible impact.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              When I'm not coding, you'll find me reading research papers, contributing 
-              to open-source projects, or exploring the latest developments in 
-              decentralized systems and generative AI.
+              Whether it's automating tedious workflows, making decentralized finance 
+              accessible, or using AI to tackle challenges in healthcare and education — 
+              I'm driven by problems worth solving and the creative energy of vibecoding.
             </p>
           </motion.div>
 
