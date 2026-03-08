@@ -1,10 +1,9 @@
 import { motion } from "framer-motion";
 
 const timeline = [
-{ year: "2024", title: "Senior AI Engineer", place: "Tech Corp", desc: "Leading ML infrastructure and LLM integration" },
-{ year: "2023", title: "Blockchain Developer", place: "DeFi Startup", desc: "Built smart contract protocols and dApps" },
-{ year: "2022", title: "Full-Stack Developer", place: "Web Agency", desc: "Delivered 20+ production web applications" },
-{ year: "2021", title: "CS Degree", place: "University", desc: "Specialized in distributed systems & AI" }];
+  { year: "2026", title: "Development Engineer", place: "Shanghai Westwell Technology Co., Ltd", desc: "Custom LLM Training" },
+  { year: "2026", title: "CS Degree", place: "National University of Singapore", desc: "Bachelor of Computing · Specialized in Computer Networks & AI" },
+];
 
 
 const AboutSection = () => {
