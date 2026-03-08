@@ -38,20 +38,20 @@ const HeroSection = () => {
       <motion.div
         className="absolute top-1/4 left-1/4 w-64 h-64 rounded-full bg-primary/5 blur-3xl"
         animate={{ x: [0, 30, 0], y: [0, -20, 0] }}
-        transition={{ duration: 8, repeat: Infinity }}
-      />
+        transition={{ duration: 8, repeat: Infinity }} />
+      
       <motion.div
         className="absolute bottom-1/3 right-1/4 w-96 h-96 rounded-full bg-secondary/5 blur-3xl"
         animate={{ x: [0, -40, 0], y: [0, 30, 0] }}
-        transition={{ duration: 10, repeat: Infinity }}
-      />
+        transition={{ duration: 10, repeat: Infinity }} />
+      
 
       <div className="relative z-10 text-center px-6 max-w-4xl">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
-        >
+          transition={{ duration: 0.8 }}>
+          
           <p className="font-mono text-sm tracking-[0.3em] text-muted-foreground mb-6 uppercase">
             {"// welcome_to_my_portfolio"}
           </p>
@@ -79,8 +79,8 @@ const HeroSection = () => {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="px-8 py-3 bg-primary text-primary-foreground font-display text-sm tracking-wider uppercase rounded-sm
-                         shadow-[0_0_20px_hsl(185_100%_50%/0.3)] hover:shadow-[0_0_30px_hsl(185_100%_50%/0.5)] transition-shadow"
-            >
+                         shadow-[0_0_20px_hsl(185_100%_50%/0.3)] hover:shadow-[0_0_30px_hsl(185_100%_50%/0.5)] transition-shadow">
+              
               View Projects
             </motion.a>
             <motion.a
@@ -88,8 +88,8 @@ const HeroSection = () => {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="px-8 py-3 border border-primary/40 text-primary font-display text-sm tracking-wider uppercase rounded-sm
-                         hover:bg-primary/10 transition-colors"
-            >
+                         hover:bg-primary/10 transition-colors">
+              
               Get In Touch
             </motion.a>
           </div>
@@ -99,15 +99,15 @@ const HeroSection = () => {
         <motion.div
           className="absolute bottom-10 left-1/2 -translate-x-1/2"
           animate={{ y: [0, 8, 0] }}
-          transition={{ duration: 2, repeat: Infinity }}
-        >
-          <div className="w-5 h-8 border border-primary/40 rounded-full flex justify-center pt-1.5">
-            <div className="w-1 h-2 bg-primary rounded-full" />
-          </div>
+          transition={{ duration: 2, repeat: Infinity }}>
+          
+          
+
+          
         </motion.div>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default HeroSection;
