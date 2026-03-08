@@ -61,7 +61,7 @@ const AboutSection = () => {
                   {item.title}
                 </h3>
                 <p className="text-muted-foreground text-sm">{item.place}</p>
-                
+                {item.desc && <p className="text-muted-foreground/70 text-xs mt-1">{item.desc}</p>}
               </motion.div>
             )}
           </div>
