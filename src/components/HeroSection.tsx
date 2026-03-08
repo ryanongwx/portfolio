@@ -69,8 +69,8 @@ const HeroSection = () => {
           </div>
 
           <p className="text-muted-foreground text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed">
-            Building the future at the intersection of artificial intelligence 
-            and decentralized systems. Turning complex ideas into elegant code.
+            Building the future at the intersection of AI and decentralized systems. 
+            Passionate vibecoder solving real-world problems through elegant code.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
