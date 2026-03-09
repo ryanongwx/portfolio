@@ -57,8 +57,8 @@ const HeroSection = () => {
           </p>
           
           <h1 className="font-display text-5xl md:text-7xl lg:text-8xl font-bold mb-6 tracking-tight">
-            <span className="neon-text">Your</span>{" "}
-            <span className="text-foreground">Name</span>
+            <span className="neon-text">Ryan</span>{" "}
+            <span className="text-foreground">Ong</span>
           </h1>
 
           <div className="h-12 md:h-14 flex items-center justify-center mb-8">
