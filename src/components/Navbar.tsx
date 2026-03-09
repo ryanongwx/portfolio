@@ -21,7 +21,7 @@ const Navbar = () => {
     >
       <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
         <a href="#" className="font-display text-sm font-bold tracking-[0.2em] neon-text">
-          {"<YN/>"}
+          {"<RO/>"}
         </a>
 
         {/* Desktop */}
