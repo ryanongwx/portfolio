@@ -3,6 +3,30 @@ import { ExternalLink, Github } from "lucide-react";
 
 const projects = [
   {
+    title: "Orblivion",
+    description: "Trading layer for Orbio agents on Robinhood Chain.",
+    tags: ["AI Agents", "Orbio", "Robinhood Chain"],
+    color: "primary" as const,
+    github: "",
+    live: "https://orblivion.com/",
+  },
+  {
+    title: "memebot",
+    description: "Multi-chain memecoin migration sniper and copy-trader. Always-on recorders capture Robinhood Chain sequencer feeds, pump.fun and four.meme activity into Parquet for walk-forward backtests and shadow bots before any capital goes live.",
+    tags: ["Python", "asyncio", "Polars", "DuckDB", "Parquet", "AWS", "Robinhood Chain", "Solana", "BNB Chain"],
+    color: "secondary" as const,
+    github: "https://github.com/ryanongwx/memebot",
+    live: "",
+  },
+  {
+    title: "Batch",
+    description: "A Singapore dating app built around four-week seasons: ~20 verified singles form a batch, meet through two-person mission games, and end with a finale of secret picks. Includes a built-in safety engine for chats.",
+    tags: ["React Native", "Expo", "TypeScript", "Zustand", "Supabase", "PostgreSQL", "Cloudflare Pages"],
+    color: "accent" as const,
+    github: "https://github.com/ryanongwx/batch",
+    live: "https://batchsg.pages.dev",
+  },
+  {
     title: "SecureClaw",
     description: "Singapore's most secure personal AI agent platform. Easy to setup OpenClaw instance, chat via Telegram, powered by isolated Docker containers on a single Hetzner VPS with gVisor sandboxing.",
     tags: ["Next.js", "AWS Lambda", "DynamoDB", "Docker", "gVisor", "Telegram", "Stripe", "Clerk"],
@@ -93,9 +117,11 @@ const ProjectsSection = () => {
                   {project.title}
                 </h3>
                 <div className="flex gap-2 opacity-50 group-hover:opacity-100 transition-opacity">
-                  <a href={project.github} target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
-                    <Github size={18} />
-                  </a>
+                  {project.github && (
+                    <a href={project.github} target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+                      <Github size={18} />
+                    </a>
+                  )}
                   {project.live && (
                     <a href={project.live} target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
                       <ExternalLink size={18} />
